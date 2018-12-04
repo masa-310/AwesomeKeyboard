@@ -1,0 +1,694 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>D:\2018\AwesomeKeyboard\AwesomeKeyboard.sch</source>
+    <date>2018/11/23 19:23:25</date>
+    <tool>Eeschema (5.0.1)-4</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>AwesomeKeyboard.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="B1">
+      <value>SPARKFUN_PRO_MICRO</value>
+      <fields>
+        <field name="フィールド4">000-00000</field>
+      </fields>
+      <libsource lib="SparkFun-Boards" part="SPARKFUN_PRO_MICRO" description="SparkFun Pro Micro  Atmega32U4 compatible footprint. &lt;b&gt;SparkFun Products:&lt;/b&gt;&lt;ul&gt;&lt;li&gt;&lt;a href= https://www.sparkfun.com/products/12587 &gt;3.3V/8MHz&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href= https://www.sparkfun.com/products/12640 &gt;5V/16MHz&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BEA722F</tstamp>
+    </comp>
+    <comp ref="D11">
+      <value>DIODE</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P2.54mm_Vertical_AnodeUp</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="pspice" part="DIODE" description="Diode symbol for simulation only. Pin order incompatible with official kicad footprints"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BEA741C</tstamp>
+    </comp>
+    <comp ref="SW11">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX1A_1.00u_PCB</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BEA7CDD</tstamp>
+    </comp>
+    <comp ref="SW16">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX1A_1.00u_PCB</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BF72FAD</tstamp>
+    </comp>
+    <comp ref="D16">
+      <value>DIODE</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P2.54mm_Vertical_AnodeUp</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="pspice" part="DIODE" description="Diode symbol for simulation only. Pin order incompatible with official kicad footprints"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BF72FA6</tstamp>
+    </comp>
+    <comp ref="SW15">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX1A_1.00u_PCB</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BF72F9F</tstamp>
+    </comp>
+    <comp ref="D15">
+      <value>DIODE</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P2.54mm_Vertical_AnodeUp</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="pspice" part="DIODE" description="Diode symbol for simulation only. Pin order incompatible with official kicad footprints"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BF72F98</tstamp>
+    </comp>
+    <comp ref="SW14">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX1A_1.00u_PCB</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BF729A7</tstamp>
+    </comp>
+    <comp ref="D14">
+      <value>DIODE</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P2.54mm_Vertical_AnodeUp</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="pspice" part="DIODE" description="Diode symbol for simulation only. Pin order incompatible with official kicad footprints"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BF729A0</tstamp>
+    </comp>
+    <comp ref="SW13">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX1A_1.00u_PCB</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BF72999</tstamp>
+    </comp>
+    <comp ref="D13">
+      <value>DIODE</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P2.54mm_Vertical_AnodeUp</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="pspice" part="DIODE" description="Diode symbol for simulation only. Pin order incompatible with official kicad footprints"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BF72992</tstamp>
+    </comp>
+    <comp ref="SW12">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX1A_1.00u_PCB</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BF71BF7</tstamp>
+    </comp>
+    <comp ref="D12">
+      <value>DIODE</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P2.54mm_Vertical_AnodeUp</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="pspice" part="DIODE" description="Diode symbol for simulation only. Pin order incompatible with official kicad footprints"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BF71BF0</tstamp>
+    </comp>
+    <comp ref="SW36">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX1A_1.00u_PCB</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BF72FE5</tstamp>
+    </comp>
+    <comp ref="D36">
+      <value>DIODE</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P2.54mm_Vertical_AnodeUp</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="pspice" part="DIODE" description="Diode symbol for simulation only. Pin order incompatible with official kicad footprints"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BF72FDE</tstamp>
+    </comp>
+    <comp ref="SW35">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX1A_1.00u_PCB</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BF72FD7</tstamp>
+    </comp>
+    <comp ref="D35">
+      <value>DIODE</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P2.54mm_Vertical_AnodeUp</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="pspice" part="DIODE" description="Diode symbol for simulation only. Pin order incompatible with official kicad footprints"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BF72FD0</tstamp>
+    </comp>
+    <comp ref="SW26">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX1A_1.00u_PCB</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BF72FC9</tstamp>
+    </comp>
+    <comp ref="D26">
+      <value>DIODE</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P2.54mm_Vertical_AnodeUp</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="pspice" part="DIODE" description="Diode symbol for simulation only. Pin order incompatible with official kicad footprints"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BF72FC2</tstamp>
+    </comp>
+    <comp ref="SW25">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX1A_1.00u_PCB</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BF72FBB</tstamp>
+    </comp>
+    <comp ref="D25">
+      <value>DIODE</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P2.54mm_Vertical_AnodeUp</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="pspice" part="DIODE" description="Diode symbol for simulation only. Pin order incompatible with official kicad footprints"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BF72FB4</tstamp>
+    </comp>
+    <comp ref="SW34">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX1A_1.00u_PCB</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BF729DF</tstamp>
+    </comp>
+    <comp ref="D34">
+      <value>DIODE</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P2.54mm_Vertical_AnodeUp</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="pspice" part="DIODE" description="Diode symbol for simulation only. Pin order incompatible with official kicad footprints"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BF729D8</tstamp>
+    </comp>
+    <comp ref="SW33">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX1A_1.00u_PCB</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BF729D1</tstamp>
+    </comp>
+    <comp ref="D33">
+      <value>DIODE</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P2.54mm_Vertical_AnodeUp</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="pspice" part="DIODE" description="Diode symbol for simulation only. Pin order incompatible with official kicad footprints"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BF729CA</tstamp>
+    </comp>
+    <comp ref="SW24">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX1A_1.00u_PCB</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BF729C3</tstamp>
+    </comp>
+    <comp ref="D24">
+      <value>DIODE</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P2.54mm_Vertical_AnodeUp</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="pspice" part="DIODE" description="Diode symbol for simulation only. Pin order incompatible with official kicad footprints"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BF729BC</tstamp>
+    </comp>
+    <comp ref="SW23">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX1A_1.00u_PCB</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BF729B5</tstamp>
+    </comp>
+    <comp ref="D23">
+      <value>DIODE</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P2.54mm_Vertical_AnodeUp</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="pspice" part="DIODE" description="Diode symbol for simulation only. Pin order incompatible with official kicad footprints"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BF729AE</tstamp>
+    </comp>
+    <comp ref="SW42">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX1A_1.00u_PCB</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BF7241B</tstamp>
+    </comp>
+    <comp ref="D42">
+      <value>DIODE</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P2.54mm_Vertical_AnodeUp</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="pspice" part="DIODE" description="Diode symbol for simulation only. Pin order incompatible with official kicad footprints"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BF72414</tstamp>
+    </comp>
+    <comp ref="SW41">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX1A_1.00u_PCB</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BF7240D</tstamp>
+    </comp>
+    <comp ref="D41">
+      <value>DIODE</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P2.54mm_Vertical_AnodeUp</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="pspice" part="DIODE" description="Diode symbol for simulation only. Pin order incompatible with official kicad footprints"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BF72406</tstamp>
+    </comp>
+    <comp ref="SW32">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX1A_1.00u_PCB</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BF723FF</tstamp>
+    </comp>
+    <comp ref="D32">
+      <value>DIODE</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P2.54mm_Vertical_AnodeUp</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="pspice" part="DIODE" description="Diode symbol for simulation only. Pin order incompatible with official kicad footprints"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BF723F8</tstamp>
+    </comp>
+    <comp ref="SW31">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX1A_1.00u_PCB</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BF723F1</tstamp>
+    </comp>
+    <comp ref="D31">
+      <value>DIODE</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P2.54mm_Vertical_AnodeUp</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="pspice" part="DIODE" description="Diode symbol for simulation only. Pin order incompatible with official kicad footprints"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BF723EA</tstamp>
+    </comp>
+    <comp ref="SW22">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX1A_1.00u_PCB</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BF71DFB</tstamp>
+    </comp>
+    <comp ref="D22">
+      <value>DIODE</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P2.54mm_Vertical_AnodeUp</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="pspice" part="DIODE" description="Diode symbol for simulation only. Pin order incompatible with official kicad footprints"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BF71DF4</tstamp>
+    </comp>
+    <comp ref="SW21">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX1A_1.00u_PCB</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BF71DED</tstamp>
+    </comp>
+    <comp ref="D21">
+      <value>DIODE</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P2.54mm_Vertical_AnodeUp</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="pspice" part="DIODE" description="Diode symbol for simulation only. Pin order incompatible with official kicad footprints"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BF71DE6</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>AudioJack4_Ground</value>
+      <footprint>Connector_Audio:Jack_3.5mm_PJ320D_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="AudioJack4_Ground" description="Audio Jack, 4 Poles (TRRS), Grounded Sleeve"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BF7F9D3</tstamp>
+    </comp>
+    <comp ref="SW_RESET1">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_SMD:SW_SPST_TL3305A</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BF8FEF5</tstamp>
+    </comp>
+    <comp ref="LS1">
+      <value>Speaker</value>
+      <footprint>Buzzer_Beeper:Buzzer_Murata_PKMCS0909E4000-R1</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Speaker" description="Speaker"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BF9C6F1</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BF86D80</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BF86E4E</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="AudioJack4_Ground">
+      <description>Audio Jack, 4 Poles (TRRS), Grounded Sleeve</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">AudioJack4_Ground</field>
+      </fields>
+      <pins>
+        <pin num="R1" name="~" type="passive"/>
+        <pin num="R2" name="~" type="passive"/>
+        <pin num="S" name="~" type="passive"/>
+        <pin num="T" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Speaker">
+      <description>Speaker</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">LS</field>
+        <field name="Value">Speaker</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+        <pin num="2" name="2" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="SparkFun-Boards" part="SPARKFUN_PRO_MICRO">
+      <description>SparkFun Pro Micro  Atmega32U4 compatible footprint. &lt;b&gt;SparkFun Products:&lt;/b&gt;&lt;ul&gt;&lt;li&gt;&lt;a href= https://www.sparkfun.com/products/12587 &gt;3.3V/8MHz&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href= https://www.sparkfun.com/products/12640 &gt;5V/16MHz&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
+      <footprints>
+        <fp>*SPARKFUN_PRO_MICRO*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">B</field>
+        <field name="Value">SPARKFUN_PRO_MICRO</field>
+        <field name="Footprint">SPARKFUN_PRO_MICRO</field>
+        <field name="フィールド4">XXX-00000</field>
+      </fields>
+      <pins>
+        <pin num="1" name="TXO" type="BiDi"/>
+        <pin num="2" name="RXI" type="BiDi"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="2" type="BiDi"/>
+        <pin num="6" name="*3" type="BiDi"/>
+        <pin num="7" name="4" type="BiDi"/>
+        <pin num="8" name="*5" type="BiDi"/>
+        <pin num="9" name="*6" type="BiDi"/>
+        <pin num="10" name="7" type="BiDi"/>
+        <pin num="11" name="8" type="BiDi"/>
+        <pin num="12" name="*9" type="BiDi"/>
+        <pin num="13" name="*10" type="BiDi"/>
+        <pin num="14" name="11(MOSI)" type="BiDi"/>
+        <pin num="15" name="12(MISO)" type="BiDi"/>
+        <pin num="16" name="13(SCK)" type="BiDi"/>
+        <pin num="17" name="A0" type="BiDi"/>
+        <pin num="18" name="A1" type="BiDi"/>
+        <pin num="19" name="A2" type="BiDi"/>
+        <pin num="20" name="A3" type="BiDi"/>
+        <pin num="21" name="VCC" type="power_in"/>
+        <pin num="22" name="RESET" type="BiDi"/>
+        <pin num="23" name="GND" type="power_in"/>
+        <pin num="24" name="RAW" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_Push">
+      <description>Push button switch, generic, two pins</description>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="pspice" part="DIODE">
+      <description>Diode symbol for simulation only. Pin order incompatible with official kicad footprints</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">DIODE</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="input"/>
+        <pin num="2" name="A" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Device.lib</uri>
+    </library>
+    <library logical="SparkFun-Boards">
+      <uri>D:/downloads/SparkFun-KiCad-Libraries-master/Libraries/SparkFun-Boards.lib</uri>
+    </library>
+    <library logical="Switch">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Switch.lib</uri>
+    </library>
+    <library logical="pspice">
+      <uri>C:\Program Files\KiCad\share\kicad\library/pspice.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/ROW2">
+      <node ref="B1" pin="10"/>
+      <node ref="SW23" pin="2"/>
+      <node ref="SW24" pin="2"/>
+      <node ref="SW21" pin="2"/>
+      <node ref="SW25" pin="2"/>
+      <node ref="SW26" pin="2"/>
+      <node ref="SW22" pin="2"/>
+    </net>
+    <net code="2" name="/ROW1">
+      <node ref="B1" pin="9"/>
+      <node ref="SW11" pin="2"/>
+      <node ref="SW14" pin="2"/>
+      <node ref="SW13" pin="2"/>
+      <node ref="SW12" pin="2"/>
+      <node ref="SW16" pin="2"/>
+      <node ref="SW15" pin="2"/>
+    </net>
+    <net code="3" name="Net-(B1-Pad5)">
+      <node ref="J1" pin="R2"/>
+      <node ref="B1" pin="5"/>
+      <node ref="R1" pin="2"/>
+    </net>
+    <net code="4" name="Net-(B1-Pad6)">
+      <node ref="R2" pin="2"/>
+      <node ref="B1" pin="6"/>
+      <node ref="J1" pin="R1"/>
+    </net>
+    <net code="5" name="/ROW4">
+      <node ref="SW41" pin="2"/>
+      <node ref="B1" pin="12"/>
+      <node ref="SW42" pin="2"/>
+    </net>
+    <net code="6" name="/ROW3">
+      <node ref="SW33" pin="2"/>
+      <node ref="B1" pin="11"/>
+      <node ref="SW32" pin="2"/>
+      <node ref="SW31" pin="2"/>
+      <node ref="SW36" pin="2"/>
+      <node ref="SW34" pin="2"/>
+      <node ref="SW35" pin="2"/>
+    </net>
+    <net code="7" name="/COL5">
+      <node ref="D15" pin="2"/>
+      <node ref="D25" pin="2"/>
+      <node ref="D35" pin="2"/>
+      <node ref="B1" pin="14"/>
+    </net>
+    <net code="8" name="/COL4">
+      <node ref="D34" pin="2"/>
+      <node ref="D14" pin="2"/>
+      <node ref="D24" pin="2"/>
+      <node ref="B1" pin="15"/>
+    </net>
+    <net code="9" name="/COL3">
+      <node ref="D13" pin="2"/>
+      <node ref="B1" pin="16"/>
+      <node ref="D23" pin="2"/>
+      <node ref="D33" pin="2"/>
+    </net>
+    <net code="10" name="/COL6">
+      <node ref="D16" pin="2"/>
+      <node ref="D36" pin="2"/>
+      <node ref="D26" pin="2"/>
+      <node ref="B1" pin="13"/>
+    </net>
+    <net code="11" name="GND">
+      <node ref="B1" pin="3"/>
+      <node ref="B1" pin="4"/>
+      <node ref="B1" pin="23"/>
+      <node ref="LS1" pin="2"/>
+      <node ref="J1" pin="T"/>
+      <node ref="SW_RESET1" pin="2"/>
+    </net>
+    <net code="12" name="VCC">
+      <node ref="R2" pin="1"/>
+      <node ref="B1" pin="21"/>
+      <node ref="J1" pin="S"/>
+      <node ref="R1" pin="1"/>
+    </net>
+    <net code="13" name="Net-(B1-Pad24)">
+      <node ref="B1" pin="24"/>
+    </net>
+    <net code="14" name="Net-(B1-Pad20)">
+      <node ref="B1" pin="20"/>
+    </net>
+    <net code="15" name="Net-(B1-Pad19)">
+      <node ref="B1" pin="19"/>
+    </net>
+    <net code="16" name="Net-(B1-Pad7)">
+      <node ref="B1" pin="7"/>
+    </net>
+    <net code="17" name="Net-(B1-Pad2)">
+      <node ref="B1" pin="2"/>
+    </net>
+    <net code="18" name="Net-(B1-Pad1)">
+      <node ref="B1" pin="1"/>
+    </net>
+    <net code="19" name="Net-(B1-Pad22)">
+      <node ref="SW_RESET1" pin="1"/>
+      <node ref="B1" pin="22"/>
+    </net>
+    <net code="20" name="/SPEAKER">
+      <node ref="LS1" pin="1"/>
+      <node ref="B1" pin="8"/>
+    </net>
+    <net code="21" name="/COL2">
+      <node ref="D12" pin="2"/>
+      <node ref="D32" pin="2"/>
+      <node ref="D22" pin="2"/>
+      <node ref="D42" pin="2"/>
+      <node ref="B1" pin="17"/>
+    </net>
+    <net code="22" name="Net-(D36-Pad1)">
+      <node ref="D36" pin="1"/>
+      <node ref="SW36" pin="1"/>
+    </net>
+    <net code="23" name="Net-(D12-Pad1)">
+      <node ref="SW12" pin="1"/>
+      <node ref="D12" pin="1"/>
+    </net>
+    <net code="24" name="Net-(D35-Pad1)">
+      <node ref="D35" pin="1"/>
+      <node ref="SW35" pin="1"/>
+    </net>
+    <net code="25" name="Net-(D13-Pad1)">
+      <node ref="D13" pin="1"/>
+      <node ref="SW13" pin="1"/>
+    </net>
+    <net code="26" name="Net-(D14-Pad1)">
+      <node ref="SW14" pin="1"/>
+      <node ref="D14" pin="1"/>
+    </net>
+    <net code="27" name="Net-(D25-Pad1)">
+      <node ref="D25" pin="1"/>
+      <node ref="SW25" pin="1"/>
+    </net>
+    <net code="28" name="Net-(D33-Pad1)">
+      <node ref="D33" pin="1"/>
+      <node ref="SW33" pin="1"/>
+    </net>
+    <net code="29" name="Net-(D34-Pad1)">
+      <node ref="D34" pin="1"/>
+      <node ref="SW34" pin="1"/>
+    </net>
+    <net code="30" name="Net-(D15-Pad1)">
+      <node ref="SW15" pin="1"/>
+      <node ref="D15" pin="1"/>
+    </net>
+    <net code="31" name="Net-(D26-Pad1)">
+      <node ref="SW26" pin="1"/>
+      <node ref="D26" pin="1"/>
+    </net>
+    <net code="32" name="Net-(D16-Pad1)">
+      <node ref="D16" pin="1"/>
+      <node ref="SW16" pin="1"/>
+    </net>
+    <net code="33" name="Net-(D11-Pad1)">
+      <node ref="SW11" pin="1"/>
+      <node ref="D11" pin="1"/>
+    </net>
+    <net code="34" name="/COL1">
+      <node ref="D41" pin="2"/>
+      <node ref="D11" pin="2"/>
+      <node ref="D31" pin="2"/>
+      <node ref="D21" pin="2"/>
+      <node ref="B1" pin="18"/>
+    </net>
+    <net code="35" name="Net-(D41-Pad1)">
+      <node ref="SW41" pin="1"/>
+      <node ref="D41" pin="1"/>
+    </net>
+    <net code="36" name="Net-(D42-Pad1)">
+      <node ref="D42" pin="1"/>
+      <node ref="SW42" pin="1"/>
+    </net>
+    <net code="37" name="Net-(D23-Pad1)">
+      <node ref="D23" pin="1"/>
+      <node ref="SW23" pin="1"/>
+    </net>
+    <net code="38" name="Net-(D24-Pad1)">
+      <node ref="SW24" pin="1"/>
+      <node ref="D24" pin="1"/>
+    </net>
+    <net code="39" name="Net-(D31-Pad1)">
+      <node ref="D31" pin="1"/>
+      <node ref="SW31" pin="1"/>
+    </net>
+    <net code="40" name="Net-(D21-Pad1)">
+      <node ref="SW21" pin="1"/>
+      <node ref="D21" pin="1"/>
+    </net>
+    <net code="41" name="Net-(D22-Pad1)">
+      <node ref="D22" pin="1"/>
+      <node ref="SW22" pin="1"/>
+    </net>
+    <net code="42" name="Net-(D32-Pad1)">
+      <node ref="D32" pin="1"/>
+      <node ref="SW32" pin="1"/>
+    </net>
+  </nets>
+</export>

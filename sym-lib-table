@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name my_trrs)(type Legacy)(uri D:/2018/AwesomeKeyboard/my_trrs.lib)(options "")(descr ""))
+  (lib (name AwesomeKeyboard_Right-rescue)(type Legacy)(uri ${KIPRJMOD}/AwesomeKeyboard_Right-rescue.lib)(options "")(descr ""))
+  (lib (name AwesomeKeyboard_Left-rescue)(type Legacy)(uri ${KIPRJMOD}/AwesomeKeyboard_Left-rescue.lib)(options "")(descr ""))
+)
