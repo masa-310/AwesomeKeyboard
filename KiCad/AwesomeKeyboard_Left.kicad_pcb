@@ -2,7 +2,7 @@
 
   (general
     (thickness 0.8)
-    (drawings 22)
+    (drawings 26)
     (tracks 470)
     (zones 0)
     (modules 57)
@@ -88,7 +88,7 @@
       (mirror false)
       (drillshape 1)
       (scaleselection 1)
-      (outputdirectory "D:/2018/AwesomeKeyboard_Right-20181203T011312Z-001/AwesomeKeyboard.git/KiCad/"))
+      (outputdirectory "./"))
   )
 
   (net 0 "")
@@ -2723,6 +2723,10 @@
     )
   )
 
+  (gr_line (start 77.8 174.67) (end 77.8 74.67) (layer Edge.Cuts) (width 0.1))
+  (gr_line (start 207.8 174.67) (end 77.8 174.67) (layer Edge.Cuts) (width 0.1))
+  (gr_line (start 207.8 74.67) (end 207.8 174.67) (layer Edge.Cuts) (width 0.1))
+  (gr_line (start 77.8 74.67) (end 207.8 74.67) (layer Edge.Cuts) (width 0.1))
   (gr_line (start 207.795109 74.710759) (end 77.795109 74.710759) (layer Eco1.User) (width 0.2) (tstamp 5C21B751))
   (gr_line (start 77.804891 74.710759) (end 207.804891 74.710759) (layer Eco1.User) (width 0.2))
   (gr_line (start 207.795109 174.710759) (end 207.795109 74.710759) (layer Eco1.User) (width 0.2) (tstamp 5C21B750))
