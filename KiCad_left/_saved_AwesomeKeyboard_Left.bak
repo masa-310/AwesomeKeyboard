@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:AwesomeKeyboard_Left-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -455,14 +456,14 @@ F 3 "~" H 3900 2800 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5350 5650 5350 5350
-Text Label 4950 5350 3    50   ~ 0
+Text Label 5050 6850 1    50   ~ 0
 ROW1
 Text Label 4950 6850 1    50   ~ 0
 ROW2
 Text Label 4850 6850 1    50   ~ 0
 ROW3
 Wire Wire Line
-	4950 5650 4950 5350
+	5050 6550 5050 6850
 Wire Wire Line
 	4950 6550 4950 6850
 Wire Wire Line
@@ -485,6 +486,8 @@ Wire Wire Line
 	5450 6550 5450 6850
 Wire Wire Line
 	5050 5350 5050 5650
+Wire Wire Line
+	5150 5350 5150 5650
 Wire Wire Line
 	5250 5350 5250 5650
 Wire Wire Line
@@ -709,6 +712,8 @@ F 3 "~" H 4700 5350 50  0001 C CNN
 $EndComp
 Connection ~ 4750 5150
 Connection ~ 4850 5350
+Wire Wire Line
+	4850 5350 4850 5650
 Wire Wire Line
 	4850 5050 4850 5350
 Wire Wire Line
@@ -1074,9 +1079,4 @@ Wire Wire Line
 Wire Wire Line
 	4350 7200 4550 7200
 NoConn ~ 4450 6550
-Wire Wire Line
-	5150 5350 5150 5650
-Wire Wire Line
-	4850 5350 4850 5650
-NoConn ~ 5050 6550
 $EndSCHEMATC
