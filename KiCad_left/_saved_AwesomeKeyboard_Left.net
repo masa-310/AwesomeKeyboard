@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source D:\2018\AwesomeKeyboard.git\KiCad_left\_saved_AwesomeKeyboard_Left.sch)
-    (date "2018/12/30 1:00:52")
+    (date "2018/12/30 1:00:39")
     (tool "Eeschema (5.0.1)-4")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
