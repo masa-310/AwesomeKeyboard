@@ -34,7 +34,7 @@ F 1 "SW_Push" H 6350 2294 50  0000 C CNN
 F 2 "Button_Switch_Keyboard:SW_Cherry_MX1A_1.00u_Plate" H 6350 2300 50  0001 C CNN
 F 3 "" H 6350 2300 50  0001 C CNN
 	1    6350 2100
-	0    1    -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_Push SW16
@@ -45,7 +45,7 @@ F 1 "SW_Push" H 2600 2294 50  0000 C CNN
 F 2 "Button_Switch_Keyboard:SW_Cherry_MX1A_1.00u_Plate" H 2600 2300 50  0001 C CNN
 F 3 "" H 2600 2300 50  0001 C CNN
 	1    2600 2100
-	0    1    -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L pspice:DIODE D16
@@ -67,7 +67,7 @@ F 1 "SW_Push" H 3350 2294 50  0000 C CNN
 F 2 "Button_Switch_Keyboard:SW_Cherry_MX1A_1.00u_Plate" H 3350 2300 50  0001 C CNN
 F 3 "" H 3350 2300 50  0001 C CNN
 	1    3350 2100
-	0    1    -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L pspice:DIODE D15
@@ -89,7 +89,7 @@ F 1 "SW_Push" H 4100 2294 50  0000 C CNN
 F 2 "Button_Switch_Keyboard:SW_Cherry_MX1A_1.00u_Plate" H 4100 2300 50  0001 C CNN
 F 3 "" H 4100 2300 50  0001 C CNN
 	1    4100 2100
-	0    1    -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L pspice:DIODE D14
@@ -111,7 +111,7 @@ F 1 "SW_Push" H 4850 2294 50  0000 C CNN
 F 2 "Button_Switch_Keyboard:SW_Cherry_MX1A_1.00u_Plate" H 4850 2300 50  0001 C CNN
 F 3 "" H 4850 2300 50  0001 C CNN
 	1    4850 2100
-	0    1    -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L pspice:DIODE D13
@@ -133,7 +133,7 @@ F 1 "SW_Push" H 5600 2294 50  0000 C CNN
 F 2 "Button_Switch_Keyboard:SW_Cherry_MX1A_1.00u_Plate" H 5600 2300 50  0001 C CNN
 F 3 "" H 5600 2300 50  0001 C CNN
 	1    5600 2100
-	0    1    -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L pspice:DIODE D12
@@ -155,7 +155,7 @@ F 1 "SW_Push" H 2600 3694 50  0000 C CNN
 F 2 "Button_Switch_Keyboard:SW_Cherry_MX1A_1.00u_Plate" H 2600 3700 50  0001 C CNN
 F 3 "" H 2600 3700 50  0001 C CNN
 	1    2600 3500
-	0    1    -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L pspice:DIODE D36
@@ -177,7 +177,7 @@ F 1 "SW_Push" H 3350 3694 50  0000 C CNN
 F 2 "Button_Switch_Keyboard:SW_Cherry_MX1A_1.00u_Plate" H 3350 3700 50  0001 C CNN
 F 3 "" H 3350 3700 50  0001 C CNN
 	1    3350 3500
-	0    1    -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L pspice:DIODE D35
@@ -199,7 +199,7 @@ F 1 "SW_Push" H 2600 2994 50  0000 C CNN
 F 2 "Button_Switch_Keyboard:SW_Cherry_MX1A_1.00u_Plate" H 2600 3000 50  0001 C CNN
 F 3 "" H 2600 3000 50  0001 C CNN
 	1    2600 2800
-	0    1    -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L pspice:DIODE D26
@@ -221,7 +221,7 @@ F 1 "SW_Push" H 3350 2994 50  0000 C CNN
 F 2 "Button_Switch_Keyboard:SW_Cherry_MX1A_1.00u_Plate" H 3350 3000 50  0001 C CNN
 F 3 "" H 3350 3000 50  0001 C CNN
 	1    3350 2800
-	0    1    -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L pspice:DIODE D25
@@ -243,7 +243,7 @@ F 1 "SW_Push" H 4100 3694 50  0000 C CNN
 F 2 "Button_Switch_Keyboard:SW_Cherry_MX1A_1.00u_Plate" H 4100 3700 50  0001 C CNN
 F 3 "" H 4100 3700 50  0001 C CNN
 	1    4100 3500
-	0    1    -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L pspice:DIODE D34
@@ -265,7 +265,7 @@ F 1 "SW_Push" H 4850 3694 50  0000 C CNN
 F 2 "Button_Switch_Keyboard:SW_Cherry_MX1A_1.00u_Plate" H 4850 3700 50  0001 C CNN
 F 3 "" H 4850 3700 50  0001 C CNN
 	1    4850 3500
-	0    1    -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L pspice:DIODE D33
@@ -287,7 +287,7 @@ F 1 "SW_Push" H 4100 2994 50  0000 C CNN
 F 2 "Button_Switch_Keyboard:SW_Cherry_MX1A_1.00u_Plate" H 4100 3000 50  0001 C CNN
 F 3 "" H 4100 3000 50  0001 C CNN
 	1    4100 2800
-	0    1    -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L pspice:DIODE D24
@@ -309,7 +309,7 @@ F 1 "SW_Push" H 4850 2994 50  0000 C CNN
 F 2 "Button_Switch_Keyboard:SW_Cherry_MX1A_1.00u_Plate" H 4850 3000 50  0001 C CNN
 F 3 "" H 4850 3000 50  0001 C CNN
 	1    4850 2800
-	0    1    -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L pspice:DIODE D23
@@ -331,7 +331,7 @@ F 1 "SW_Push" H 2600 4394 50  0000 C CNN
 F 2 "Button_Switch_Keyboard:SW_Cherry_MX1A_1.00u_Plate" H 2600 4400 50  0001 C CNN
 F 3 "" H 2600 4400 50  0001 C CNN
 	1    2600 4200
-	0    1    -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L pspice:DIODE D46
@@ -353,7 +353,7 @@ F 1 "SW_Push" H 3350 4394 50  0000 C CNN
 F 2 "Button_Switch_Keyboard:SW_Cherry_MX1A_1.00u_Plate" H 3350 4400 50  0001 C CNN
 F 3 "" H 3350 4400 50  0001 C CNN
 	1    3350 4200
-	0    1    -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L pspice:DIODE D45
@@ -375,7 +375,7 @@ F 1 "SW_Push" H 5600 3694 50  0000 C CNN
 F 2 "Button_Switch_Keyboard:SW_Cherry_MX1A_1.00u_Plate" H 5600 3700 50  0001 C CNN
 F 3 "" H 5600 3700 50  0001 C CNN
 	1    5600 3500
-	0    1    -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L pspice:DIODE D32
@@ -397,7 +397,7 @@ F 1 "SW_Push" H 6350 3694 50  0000 C CNN
 F 2 "Button_Switch_Keyboard:SW_Cherry_MX1A_1.00u_Plate" H 6350 3700 50  0001 C CNN
 F 3 "" H 6350 3700 50  0001 C CNN
 	1    6350 3500
-	0    1    -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L pspice:DIODE D31
@@ -419,7 +419,7 @@ F 1 "SW_Push" H 5600 2994 50  0000 C CNN
 F 2 "Button_Switch_Keyboard:SW_Cherry_MX1A_1.00u_Plate" H 5600 3000 50  0001 C CNN
 F 3 "" H 5600 3000 50  0001 C CNN
 	1    5600 2800
-	0    1    -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L pspice:DIODE D22
@@ -441,7 +441,7 @@ F 1 "SW_Push" H 6350 2994 50  0000 C CNN
 F 2 "Button_Switch_Keyboard:SW_Cherry_MX1A_1.00u_Plate" H 6350 3000 50  0001 C CNN
 F 3 "" H 6350 3000 50  0001 C CNN
 	1    6350 2800
-	0    1    -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L pspice:DIODE D21
@@ -460,14 +460,12 @@ Text Label 7850 4400 0    50   ~ 0
 ROW1
 Text Label 7850 4300 0    50   ~ 0
 ROW2
-Text Label 7850 4200 0    50   ~ 0
+Text Label 7850 3800 0    50   ~ 0
 ROW3
 Wire Wire Line
 	8150 4400 7850 4400
 Wire Wire Line
 	8150 4300 7850 4300
-Wire Wire Line
-	8150 4200 7850 4200
 Wire Wire Line
 	8150 4700 7850 4700
 Text Label 7850 4700 0    50   ~ 0
@@ -620,41 +618,41 @@ Wire Wire Line
 Text Label 3850 4000 2    50   ~ 0
 ROW4
 Wire Wire Line
-	9650 4300 9650 4450
+	7550 4300 7550 4450
 $Comp
 L power:GND #PWR0101
 U 1 1 5BF85540
-P 9650 4450
-F 0 "#PWR0101" H 9650 4200 50  0001 C CNN
-F 1 "GND" H 9655 4277 50  0000 C CNN
-F 2 "" H 9650 4450 50  0001 C CNN
-F 3 "" H 9650 4450 50  0001 C CNN
-	1    9650 4450
+P 7550 4450
+F 0 "#PWR0101" H 7550 4200 50  0001 C CNN
+F 1 "GND" H 7555 4277 50  0000 C CNN
+F 2 "" H 7550 4450 50  0001 C CNN
+F 3 "" H 7550 4450 50  0001 C CNN
+	1    7550 4450
 	-1   0    0    -1  
 $EndComp
 $Comp
 L power:VCC #PWR0102
 U 1 1 5BF855E7
-P 9300 3650
-F 0 "#PWR0102" H 9300 3500 50  0001 C CNN
-F 1 "VCC" H 9317 3823 50  0000 C CNN
-F 2 "" H 9300 3650 50  0001 C CNN
-F 3 "" H 9300 3650 50  0001 C CNN
-	1    9300 3650
+P 7550 3650
+F 0 "#PWR0102" H 7550 3500 50  0001 C CNN
+F 1 "VCC" H 7567 3823 50  0000 C CNN
+F 2 "" H 7550 3650 50  0001 C CNN
+F 3 "" H 7550 3650 50  0001 C CNN
+	1    7550 3650
 	-1   0    0    -1  
 $EndComp
-Text Label 7850 4100 0    50   ~ 0
+Text Label 7850 3700 0    50   ~ 0
 SPEAKER
 $Comp
 L Switch:SW_Push SW_RESET1
 U 1 1 5BF8FEF5
-P 7800 3900
-F 0 "SW_RESET1" H 7800 4185 50  0000 C CNN
-F 1 "SW_Push" H 7800 4094 50  0000 C CNN
-F 2 "Button_Switch_THT:SW_PUSH_6mm" H 7800 4100 50  0001 C CNN
-F 3 "" H 7800 4100 50  0001 C CNN
-	1    7800 3900
-	-1   0    0    -1  
+P 9400 3900
+F 0 "SW_RESET1" H 9400 4185 50  0000 C CNN
+F 1 "SW_Push" H 9400 4094 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm" H 9400 4100 50  0001 C CNN
+F 3 "" H 9400 4100 50  0001 C CNN
+	1    9400 3900
+	1    0    0    -1  
 $EndComp
 $Comp
 L Device:Speaker LS1
@@ -684,20 +682,16 @@ Wire Wire Line
 	2100 6050 2250 6050
 Wire Wire Line
 	2250 6050 2250 6150
-Wire Wire Line
-	9650 4000 9650 3800
-Wire Wire Line
-	9300 3800 9300 3650
 $Comp
 L AwesomeKeyboard_Right-rescue:AudioJack4_Ground-my_trrs-AwesomeKeyboard_Left-rescue J1
 U 1 1 5C055710
-P 9850 4100
-F 0 "J1" H 9816 4442 50  0000 C CNN
-F 1 "AudioJack4_Ground" H 9816 4351 50  0000 C CNN
-F 2 "Connector_Audio:Jack_3.5mm_PJ320D_Horizontal" H 9850 4100 50  0001 C CNN
-F 3 "" H 9850 4100 50  0001 C CNN
-	1    9850 4100
-	-1   0    0    -1  
+P 7350 4100
+F 0 "J1" H 7316 4442 50  0000 C CNN
+F 1 "AudioJack4_Ground" H 7316 4351 50  0000 C CNN
+F 2 "Connector_Audio:Jack_3.5mm_PJ320D_Horizontal" H 7350 4100 50  0001 C CNN
+F 3 "" H 7350 4100 50  0001 C CNN
+	1    7350 4100
+	1    0    0    -1  
 $EndComp
 Connection ~ 2950 3700
 Connection ~ 2200 3700
@@ -721,9 +715,9 @@ Text Label 7850 4600 0    50   ~ 0
 LED3
 Text Label 7850 4500 0    50   ~ 0
 LED4
-Text Label 9150 3450 1    50   ~ 0
+Text Label 9300 4300 0    50   ~ 0
 COL2
-Text Label 9050 3450 1    50   ~ 0
+Text Label 9300 4200 0    50   ~ 0
 COL1
 $Comp
 L Device:LED LED2
@@ -892,11 +886,7 @@ $EndComp
 Wire Wire Line
 	3000 5950 3450 5950
 Wire Wire Line
-	9050 3700 9050 3450
-Wire Wire Line
-	9050 3800 9150 3800
-Wire Wire Line
-	9150 3800 9150 3450
+	9050 4200 9300 4200
 $Comp
 L SparkFun-Boards:SPARKFUN_PRO_MICRO B1
 U 1 1 5BEA722F
@@ -907,7 +897,7 @@ F 2 "Boards:SPARKFUN_PRO_MICRO" H 8600 5050 20  0001 C CNN
 F 3 "" H 8600 4250 50  0001 C CNN
 F 4 "000-00000" H 8600 4981 60  0000 C CNN "フィールド4"
 	1    8600 4250
-	-1   0    0    -1  
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	1450 750  1450 700 
@@ -962,17 +952,17 @@ F 3 "~" H 700 700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7600 3900 7500 3900
+	9600 3900 9700 3900
 $Comp
 L power:GND #PWR0103
 U 1 1 5BF8AB0F
-P 7500 3900
-F 0 "#PWR0103" H 7500 3650 50  0001 C CNN
-F 1 "GND" H 7505 3727 50  0000 C CNN
-F 2 "" H 7500 3900 50  0001 C CNN
-F 3 "" H 7500 3900 50  0001 C CNN
-	1    7500 3900
-	-1   0    0    -1  
+P 9700 3900
+F 0 "#PWR0103" H 9700 3650 50  0001 C CNN
+F 1 "GND" H 9705 3727 50  0000 C CNN
+F 2 "" H 9700 3900 50  0001 C CNN
+F 3 "" H 9700 3900 50  0001 C CNN
+	1    9700 3900
+	1    0    0    -1  
 $EndComp
 $Comp
 L Switch:SW_DIP_x01 SW1
@@ -988,47 +978,61 @@ $EndComp
 Text Label 9350 4700 2    50   ~ 0
 COL6
 Wire Wire Line
-	8150 4100 7850 4100
-NoConn ~ 8150 3700
+	8150 3700 7850 3700
 Wire Wire Line
-	8150 3900 8000 3900
+	9050 3900 9200 3900
 Wire Wire Line
-	9050 4100 9650 4100
+	8150 4100 7550 4100
 Wire Wire Line
-	9050 4200 9650 4200
-Wire Wire Line
-	9300 3800 9650 3800
+	8150 4200 7550 4200
 $Comp
 L power:VCC #PWR0104
 U 1 1 5C269825
-P 8150 4000
-F 0 "#PWR0104" H 8150 3850 50  0001 C CNN
-F 1 "VCC" V 8168 4127 50  0000 L CNN
-F 2 "" H 8150 4000 50  0001 C CNN
-F 3 "" H 8150 4000 50  0001 C CNN
-	1    8150 4000
-	0    -1   -1   0   
+P 9050 4000
+F 0 "#PWR0104" H 9050 3850 50  0001 C CNN
+F 1 "VCC" V 9068 4127 50  0000 L CNN
+F 2 "" H 9050 4000 50  0001 C CNN
+F 3 "" H 9050 4000 50  0001 C CNN
+	1    9050 4000
+	0    1    -1   0   
 $EndComp
 $Comp
 L power:GND #PWR0105
 U 1 1 5C26996A
-P 9050 3900
-F 0 "#PWR0105" H 9050 3650 50  0001 C CNN
-F 1 "GND" V 9055 3772 50  0000 R CNN
-F 2 "" H 9050 3900 50  0001 C CNN
-F 3 "" H 9050 3900 50  0001 C CNN
-	1    9050 3900
-	0    -1   -1   0   
+P 8150 3900
+F 0 "#PWR0105" H 8150 3650 50  0001 C CNN
+F 1 "GND" V 8155 3772 50  0000 R CNN
+F 2 "" H 8150 3900 50  0001 C CNN
+F 3 "" H 8150 3900 50  0001 C CNN
+	1    8150 3900
+	0    1    -1   0   
 $EndComp
 $Comp
 L power:GND #PWR0113
 U 1 1 5C269A9A
-P 9050 4000
-F 0 "#PWR0113" H 9050 3750 50  0001 C CNN
-F 1 "GND" V 9055 3872 50  0000 R CNN
-F 2 "" H 9050 4000 50  0001 C CNN
-F 3 "" H 9050 4000 50  0001 C CNN
-	1    9050 4000
+P 9050 3800
+F 0 "#PWR0113" H 9050 3550 50  0001 C CNN
+F 1 "GND" V 9055 3672 50  0000 R CNN
+F 2 "" H 9050 3800 50  0001 C CNN
+F 3 "" H 9050 3800 50  0001 C CNN
+	1    9050 3800
 	0    -1   -1   0   
 $EndComp
+$Comp
+L power:GND #PWR0114
+U 1 1 5C2B6ACD
+P 8150 4000
+F 0 "#PWR0114" H 8150 3750 50  0001 C CNN
+F 1 "GND" V 8155 3872 50  0000 R CNN
+F 2 "" H 8150 4000 50  0001 C CNN
+F 3 "" H 8150 4000 50  0001 C CNN
+	1    8150 4000
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	7550 3650 7550 4000
+Wire Wire Line
+	7850 3800 8150 3800
+Wire Wire Line
+	9050 4300 9300 4300
 $EndSCHEMATC

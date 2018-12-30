@@ -456,21 +456,21 @@ F 3 "~" H 6150 3000 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	9050 4700 9350 4700
-Text Label 7850 4400 0    50   ~ 0
+Text Label 7850 4800 0    50   ~ 0
 ROW1
 Text Label 7850 4300 0    50   ~ 0
 ROW2
 Text Label 7850 3800 0    50   ~ 0
 ROW3
 Wire Wire Line
-	8150 4400 7850 4400
+	8150 4800 7850 4800
 Wire Wire Line
 	8150 4300 7850 4300
 Wire Wire Line
-	8150 4700 7850 4700
-Text Label 7850 4700 0    50   ~ 0
+	8150 4600 7850 4600
+Text Label 7850 4600 0    50   ~ 0
 LED2
-Text Label 7850 4800 0    50   ~ 0
+Text Label 7850 4700 0    50   ~ 0
 LED1
 Text Label 9350 4400 2    50   ~ 0
 COL3
@@ -481,7 +481,7 @@ COL5
 Text Label 9350 4800 2    50   ~ 0
 ROW4
 Wire Wire Line
-	8150 4800 7850 4800
+	8150 4700 7850 4700
 Wire Wire Line
 	9350 4400 9050 4400
 Wire Wire Line
@@ -708,12 +708,12 @@ F 3 "~" H 8850 1400 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	8150 4600 7850 4600
-Wire Wire Line
 	8150 4500 7850 4500
-Text Label 7850 4600 0    50   ~ 0
-LED3
+Wire Wire Line
+	8150 4400 7850 4400
 Text Label 7850 4500 0    50   ~ 0
+LED3
+Text Label 7850 4400 0    50   ~ 0
 LED4
 Text Label 9300 4300 0    50   ~ 0
 COL2
