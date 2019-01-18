@@ -456,22 +456,22 @@ F 3 "~" H 6150 3000 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	9050 4700 9350 4700
-Text Label 7850 4800 0    50   ~ 0
+Text Label 9350 4100 2    50   ~ 0
 ROW1
 Text Label 7850 4300 0    50   ~ 0
 ROW2
 Text Label 7850 3800 0    50   ~ 0
 ROW3
 Wire Wire Line
-	8150 4800 7850 4800
+	9050 4100 9350 4100
 Wire Wire Line
 	8150 4300 7850 4300
 Wire Wire Line
-	8150 4600 7850 4600
-Text Label 7850 4600 0    50   ~ 0
-LED2
+	8150 4700 7850 4700
 Text Label 7850 4700 0    50   ~ 0
-LED1
+Y1
+Text Label 7850 4600 0    50   ~ 0
+X1
 Text Label 9350 4400 2    50   ~ 0
 COL3
 Text Label 9350 4500 2    50   ~ 0
@@ -481,7 +481,7 @@ COL5
 Text Label 9350 4800 2    50   ~ 0
 ROW4
 Wire Wire Line
-	8150 4700 7850 4700
+	8150 4600 7850 4600
 Wire Wire Line
 	9350 4400 9050 4400
 Wire Wire Line
@@ -617,30 +617,6 @@ Wire Wire Line
 	3350 4000 3850 4000
 Text Label 3850 4000 2    50   ~ 0
 ROW4
-Wire Wire Line
-	7550 4300 7550 4450
-$Comp
-L power:GND #PWR0101
-U 1 1 5BF85540
-P 7550 4450
-F 0 "#PWR0101" H 7550 4200 50  0001 C CNN
-F 1 "GND" H 7555 4277 50  0000 C CNN
-F 2 "" H 7550 4450 50  0001 C CNN
-F 3 "" H 7550 4450 50  0001 C CNN
-	1    7550 4450
-	-1   0    0    -1  
-$EndComp
-$Comp
-L power:VCC #PWR0102
-U 1 1 5BF855E7
-P 7550 3650
-F 0 "#PWR0102" H 7550 3500 50  0001 C CNN
-F 1 "VCC" H 7567 3823 50  0000 C CNN
-F 2 "" H 7550 3650 50  0001 C CNN
-F 3 "" H 7550 3650 50  0001 C CNN
-	1    7550 3650
-	-1   0    0    -1  
-$EndComp
 Text Label 7850 3700 0    50   ~ 0
 SPEAKER
 $Comp
@@ -682,17 +658,6 @@ Wire Wire Line
 	2100 6050 2250 6050
 Wire Wire Line
 	2250 6050 2250 6150
-$Comp
-L AwesomeKeyboard_Right-rescue:AudioJack4_Ground-my_trrs-AwesomeKeyboard_Left-rescue J1
-U 1 1 5C055710
-P 7350 4100
-F 0 "J1" H 7316 4442 50  0000 C CNN
-F 1 "AudioJack4_Ground" H 7316 4351 50  0000 C CNN
-F 2 "Connector_Audio:Jack_3.5mm_PJ320D_Horizontal" H 7350 4100 50  0001 C CNN
-F 3 "" H 7350 4100 50  0001 C CNN
-	1    7350 4100
-	1    0    0    -1  
-$EndComp
 Connection ~ 2950 3700
 Connection ~ 2200 3700
 Connection ~ 6350 1900
@@ -712,9 +677,9 @@ Wire Wire Line
 Wire Wire Line
 	8150 4400 7850 4400
 Text Label 7850 4500 0    50   ~ 0
-LED3
+LED1
 Text Label 7850 4400 0    50   ~ 0
-LED4
+LED2
 Text Label 9300 4300 0    50   ~ 0
 COL2
 Text Label 9300 4200 0    50   ~ 0
@@ -730,28 +695,6 @@ F 3 "~" H 9350 1400 50  0001 C CNN
 	1    9350 1400
 	-1   0    0    -1  
 $EndComp
-$Comp
-L Device:LED LED3
-U 1 1 5C089824
-P 9850 1400
-F 0 "LED3" H 9842 1616 50  0000 C CNN
-F 1 "LED" H 9842 1525 50  0000 C CNN
-F 2 "LED_THT:LED_D5.0mm" H 9850 1400 50  0001 C CNN
-F 3 "~" H 9850 1400 50  0001 C CNN
-	1    9850 1400
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Device:LED LED4
-U 1 1 5C08982B
-P 10350 1400
-F 0 "LED4" H 10342 1616 50  0000 C CNN
-F 1 "LED" H 10342 1525 50  0000 C CNN
-F 2 "LED_THT:LED_D5.0mm" H 10350 1400 50  0001 C CNN
-F 3 "~" H 10350 1400 50  0001 C CNN
-	1    10350 1400
-	-1   0    0    -1  
-$EndComp
 Wire Wire Line
 	8700 1750 8700 2050
 Wire Wire Line
@@ -760,22 +703,10 @@ Wire Wire Line
 	9200 1750 9200 2050
 Wire Wire Line
 	9500 1400 9500 1700
-Wire Wire Line
-	9700 1750 9700 2050
-Wire Wire Line
-	10000 1400 10000 1700
-Wire Wire Line
-	10200 1750 10200 2050
-Wire Wire Line
-	10500 1400 10500 1700
 Text Label 8700 2050 0    50   ~ 0
 LED1
 Text Label 9200 2050 0    50   ~ 0
 LED2
-Text Label 9700 2050 0    50   ~ 0
-LED3
-Text Label 10200 2050 0    50   ~ 0
-LED4
 $Comp
 L power:GND #PWR0109
 U 1 1 5C0A15C0
@@ -796,28 +727,6 @@ F 1 "GND" H 9505 1527 50  0000 C CNN
 F 2 "" H 9500 1700 50  0001 C CNN
 F 3 "" H 9500 1700 50  0001 C CNN
 	1    9500 1700
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0111
-U 1 1 5C0A1730
-P 10000 1700
-F 0 "#PWR0111" H 10000 1450 50  0001 C CNN
-F 1 "GND" H 10005 1527 50  0000 C CNN
-F 2 "" H 10000 1700 50  0001 C CNN
-F 3 "" H 10000 1700 50  0001 C CNN
-	1    10000 1700
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0112
-U 1 1 5C0A17B6
-P 10500 1700
-F 0 "#PWR0112" H 10500 1450 50  0001 C CNN
-F 1 "GND" H 10505 1527 50  0000 C CNN
-F 2 "" H 10500 1700 50  0001 C CNN
-F 3 "" H 10500 1700 50  0001 C CNN
-	1    10500 1700
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -842,36 +751,10 @@ F 3 "~" H 9200 1600 50  0001 C CNN
 	1    9200 1600
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:R R5
-U 1 1 5C0AA84A
-P 9700 1600
-F 0 "R5" H 9770 1646 50  0000 L CNN
-F 1 "R" H 9770 1555 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 9630 1600 50  0001 C CNN
-F 3 "~" H 9700 1600 50  0001 C CNN
-	1    9700 1600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R6
-U 1 1 5C0AA8DC
-P 10200 1600
-F 0 "R6" H 10270 1646 50  0000 L CNN
-F 1 "R" H 10270 1555 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 10130 1600 50  0001 C CNN
-F 3 "~" H 10200 1600 50  0001 C CNN
-	1    10200 1600
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	8700 1400 8700 1450
 Wire Wire Line
 	9200 1400 9200 1450
-Wire Wire Line
-	9700 1400 9700 1450
-Wire Wire Line
-	10200 1400 10200 1450
 $Comp
 L Device:R R7
 U 1 1 5C0B71C6
@@ -1030,9 +913,81 @@ F 3 "" H 8150 4000 50  0001 C CNN
 	0    1    -1   0   
 $EndComp
 Wire Wire Line
-	7550 3650 7550 4000
-Wire Wire Line
 	7850 3800 8150 3800
 Wire Wire Line
 	9050 4300 9300 4300
+$Comp
+L Connector:4P4C J_joystick1
+U 1 1 5C3C1748
+P 10150 1450
+F 0 "J_joystick1" V 10159 1780 50  0000 L CNN
+F 1 "4P4C" V 10250 1780 50  0000 L CNN
+F 2 "Connector_PinHeader_2.00mm:PinHeader_1x04_P2.00mm_Vertical" V 10150 1500 50  0001 C CNN
+F 3 "~" V 10150 1500 50  0001 C CNN
+	1    10150 1450
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0111
+U 1 1 5C3C34D9
+P 10050 1850
+F 0 "#PWR0111" H 10050 1600 50  0001 C CNN
+F 1 "GND" H 10055 1677 50  0000 C CNN
+F 2 "" H 10050 1850 50  0001 C CNN
+F 3 "" H 10050 1850 50  0001 C CNN
+	1    10050 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0112
+U 1 1 5C3C3576
+P 10350 1850
+F 0 "#PWR0112" H 10350 1700 50  0001 C CNN
+F 1 "VCC" H 10368 2023 50  0000 C CNN
+F 2 "" H 10350 1850 50  0001 C CNN
+F 3 "" H 10350 1850 50  0001 C CNN
+	1    10350 1850
+	-1   0    0    1   
+$EndComp
+Text Label 10150 1950 0    50   ~ 0
+X1
+Text Label 10250 1950 0    50   ~ 0
+Y1
+Wire Wire Line
+	10150 1850 10150 1950
+Wire Wire Line
+	10250 1850 10250 1950
+$Comp
+L Connector:4P4C J_trrs1
+U 1 1 5C40CBD0
+P 7150 4100
+F 0 "J_trrs1" H 7205 4567 50  0000 C CNN
+F 1 "4P4C" H 7205 4476 50  0000 C CNN
+F 2 "Connector_PinHeader_2.00mm:PinHeader_1x04_P2.00mm_Vertical" V 7150 4150 50  0001 C CNN
+F 3 "~" V 7150 4150 50  0001 C CNN
+	1    7150 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0101
+U 1 1 5C4148A6
+P 7550 3900
+F 0 "#PWR0101" H 7550 3750 50  0001 C CNN
+F 1 "VCC" V 7567 4028 50  0000 L CNN
+F 2 "" H 7550 3900 50  0001 C CNN
+F 3 "" H 7550 3900 50  0001 C CNN
+	1    7550 3900
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 5C414979
+P 7550 4000
+F 0 "#PWR0102" H 7550 3750 50  0001 C CNN
+F 1 "GND" V 7555 3872 50  0000 R CNN
+F 2 "" H 7550 4000 50  0001 C CNN
+F 3 "" H 7550 4000 50  0001 C CNN
+	1    7550 4000
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC

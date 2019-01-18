@@ -456,14 +456,14 @@ F 3 "~" H 3900 2800 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5350 5650 5350 5350
-Text Label 5050 6850 1    50   ~ 0
+Text Label 4950 5350 3    50   ~ 0
 ROW1
 Text Label 4950 6850 1    50   ~ 0
 ROW2
 Text Label 4850 6850 1    50   ~ 0
 ROW3
 Wire Wire Line
-	5050 6550 5050 6850
+	4950 5650 4950 5350
 Wire Wire Line
 	4950 6550 4950 6850
 Wire Wire Line
@@ -1045,7 +1045,6 @@ F 3 "" H 2700 5950 50  0001 C CNN
 $EndComp
 Text Label 5350 5350 3    50   ~ 0
 COL6
-NoConn ~ 4650 5650
 Wire Wire Line
 	4750 6550 4750 6850
 $Comp
@@ -1066,7 +1065,7 @@ U 1 1 5C08A9E4
 P 4500 6650
 F 0 "C1" V 4248 6650 50  0000 C CNN
 F 1 "C" V 4339 6650 50  0000 C CNN
-F 2 "Capacitor_THT:CP_Axial_L10.0mm_D4.5mm_P15.00mm_Horizontal" H 4538 6500 50  0001 C CNN
+F 2 "Capacitor_THT:CP_Radial_D4.0mm_P1.50mm" H 4538 6500 50  0001 C CNN
 F 3 "~" H 4500 6650 50  0001 C CNN
 	1    4500 6650
 	0    1    1    0   
@@ -1085,4 +1084,16 @@ Wire Wire Line
 	4350 6600 4450 6600
 Wire Wire Line
 	4450 6600 4450 6550
+NoConn ~ 5050 6550
+$Comp
+L power:GND #PWR0113
+U 1 1 5C421C8C
+P 4650 5650
+F 0 "#PWR0113" H 4650 5400 50  0001 C CNN
+F 1 "GND" H 4655 5477 50  0000 C CNN
+F 2 "" H 4650 5650 50  0001 C CNN
+F 3 "" H 4650 5650 50  0001 C CNN
+	1    4650 5650
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC
